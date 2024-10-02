@@ -6,7 +6,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body>
-    <h1 class="text-red-400">Hola mundoooo</h1>
+  <body
+    style="background-image: url(./Image/1365598.jpeg)"
+    class="flex flex-col h-screen w-screen bg-no-repeat bg-cover bg-center bg-fixed"
+  >
+    <section class="flex flex-col w-full h-full justify-center items-center">
+      <div
+        class="flex justify-center items-center w-1/2 h-1/2 cursor-pointer relative group"
+      >
+        <!-- Efecto de blur al hacer hover -->
+        <div
+          class="absolute inset-0 bg-black/40 backdrop-blur-none group-hover:backdrop-blur-lg transition-all duration-500"
+        ></div>
+
+        <!-- Texto que aparece al hacer hover -->
+        <h1
+          class="text-7xl text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"
+        >
+          Wilgrey
+        </h1>
+        <h2
+          class="text-5xl text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"
+        >
+          MD
+        </h2>
+      </div>
+    </section>
   </body>
 </html>
